@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+    <script src="ex-10.js"></script>
+</head>
+
+<body>
+    <div class="container text-center bg-body-tertiary">
+        <h1 class="bg-success p-3 m-0">Homework for 11.5 <small class="text-body-secondary"> ex 10</small></h1>
+        <div class="mission-10 col-md-8 col-sm-12 m-auto">
+            <h2 class="display-6 fw-bold mb-3">Check your BMI</h2>
+            <div class="row justify-content-between g-2">
+                <div class="form-floating col-7 m-auto">
+                    <input class="form-control mb-4" id="input_BMIWeight" type="number" placeholder="enter your">
+                    <label>Enter your weight:</label>
+                </div>
+                <div class="form-floating col-7 m-auto">
+                    <input class="form-control mb-4" id="input_BMIHeight" type="number" placeholder="enter your">
+                    <label>Enter your height:</label>
+                </div>
+                <button class="btn btn-success w-75 m-auto" onclick="checkBMI()">check BMI</button>
+                <p class="mb-4 fs-3"><span id="span_BMI"></span></p>
+            </div>
+        </div>
+        <a class="btn btn-outline-success mt-1" href="../ex-11/ex-11.html">Click here to the next page</a>
+    </div>
+</body>
+
+</html>

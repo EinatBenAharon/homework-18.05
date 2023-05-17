@@ -1,0 +1,82 @@
+.container {
+    height: 100vh;
+}
+
+.mission-1 {
+    min-height: 400px;
+}
+
+.mission-2,
+.mission-4,
+.mission-13 {
+    min-height: 500px;
+}
+
+.mission-5 {
+    min-height: 500px;
+    background-image: url(images/train.jpg);
+    background-position: bottom;
+}
+
+.mission-6 {
+    height: 550px;
+    background-image: url(images/toyota.jpg);
+    background-position: center;
+
+}
+
+.mission-7 {
+    height: 500px;
+    background-image: url(images/taxi.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.mission-8 {
+    background-image: url(images/school.jpg);
+    background-position: bottom;
+    min-height: 500px;
+}
+
+.mission-9 {
+    background-image: url(images/thursday.jpg);
+    background-position: center bottom;
+    min-height: 500px;
+}
+
+.mission-10 {
+    background-image: url(images/bmi.jpg);
+    background-position: center;
+    min-height: 500px;
+}
+
+.mission-11 {
+    background-image: url(images/yes.jpg);
+    background-position: center;
+    min-height: 500px;
+}
+
+#btn_display {
+    display: none;
+}
+
+
+.mission-15 {
+    background-image: url(images/clock.jpg);
+    background-position: center;
+    min-height: 500px;
+}
+
+.mission-19 {
+    background-image: url(images/tip.jpg);
+    background-blend-mode: soft-light;
+    background-position: center;
+    min-height: 500px;
+}
+
+.mission-21 {
+    background-image: url(images/harry.jpg);
+    background-blend-mode: soft-light;
+    background-position: center;
+    min-height: 500px;
+}
