@@ -31,7 +31,7 @@ const declareEvents = function () {
         document.querySelector("#id_bookAuthor").value = " ";
         save_ar.push(bookObj);
         localStorage.setItem("books", JSON.stringify(save_ar))
-        createBookList()
+        // createBookList()
     })
 }
 
